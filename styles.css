@@ -3,6 +3,7 @@
 
 :root{
     --default-side-padding : 10vw;
+    --background-header:#FCE09B;
 }
 
 *{
@@ -21,7 +22,7 @@ body{
 header{
     padding-left: 10vw;
     color: #B2533E;
-    background-color: #FCE09B;
+    background-color: var(--background-header);
     font-size: 2.6rem;   
     justify-content: space-between;
     display: flex;
@@ -73,7 +74,7 @@ footer{
     display: flex;
     font-size: 0.4em;
     min-height: 6vh;
-    background-color: #FCE09B;
+    background-color: var(--background-header);
     color: wheat;
     padding-left: var(--default-side-padding);
     padding-right: var(--default-side-padding);
