@@ -3,6 +3,7 @@
 
 :root{
     --default-side-padding : 10vw;
+    --header-background:#FCE09B;
 }
 
 *{
