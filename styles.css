@@ -3,7 +3,7 @@
 
 :root{
     --default-side-padding : 10vw;
-    --background-header:#FCE09B;
+    --background-header:#FCE09B
 }
 
 *{
@@ -83,4 +83,6 @@ footer{
 footer > h3{
     align-items: center;
     color: #B2533E;
+    font-family:'Roboto', sans-serif;
+    box-shadow: 2px 2px 4px 2px rgb(0,0,0);
 }
